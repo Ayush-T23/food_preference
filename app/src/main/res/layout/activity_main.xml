@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your food preferences:"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <CheckBox
+        android:id="@+id/checkPizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza"/>
+
+    <CheckBox
+        android:id="@+id/checkBurger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Burger"/>
+
+    <CheckBox
+        android:id="@+id/checkPasta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pasta"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your preferred drink:"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupDrink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioCoke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coke" />
+
+        <RadioButton
+            android:id="@+id/radioJuice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Juice" />
+
+        <RadioButton
+            android:id="@+id/radioWater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Water" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="319dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#FF0000"
+        android:textSize="16sp" />
+</LinearLayout>
